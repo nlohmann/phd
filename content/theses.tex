@@ -1,0 +1,37 @@
+\chapter*{Theses}
+\addtocontents{toc}{\vspace{1em}}
+\addcontentsline{toc}{chapter}{Theses}
+
+\begin{niceenumerate}
+\item Correctness plays an important role in distributed systems, such as service-oriented architectures. As service compositions often implement interorganizational business processes, a single flawed service can cause unpredictable problems, which in turn may cause legal and financial consequences.
+
+
+
+\item The behavior of a service composition should similar to that of a monolithic system; that is, distribution aspects should not change the functionality in an undesirable manner. To this end, correctness of service compositions can be expressed with classical requirements, such as absence of deadlocks and boundedness of the system.
+
+
+
+\item Existing correctness criteria of business processes are not suitable to embrace the communicating nature of services. Hence novel correctness criteria are required to examine services. Controllability is a fundamental correctness notion for services. Although introduced to analyze service orchestrations, it is also suitable for investigating service compositions or even service choreographies.
+
+
+
+\item Although services are always executed in a composition, it is possible to analyze and validate a service in isolation and still make statements about the correctness of the interaction with any other service. This local check can detect and avoid errors in the early design stages of service compositions.
+
+
+
+\item When checking correctness, simple yes-no answers are insufficient during any development phase of a service composition. Only detailed diagnosis information and counterexamples help to understand, avoid, and fix errors.
+
+
+
+\item Errors in interorganizational business processes further raise questions with respect to responsibility. If a  participant can be identified as a scapegoat for the error, correction proposals can be automatically calculated.
+
+
+
+\item Various artifacts in the area of service-oriented computing (ranging from single services to service compositions and service choreographies) and related correctness notions can be expressed in terms of a single formalism: service automata. This allows (1) to reuse and combine algorithms and techniques to examine the behavior of services, (2) to facilitate the development of software tools, and (3) to elaborate results that are independent of concrete industrial specification languages.
+
+
+
+\item Formal methods also offer support for the early design phase of service compositions. Missing participants of a service composition can be synthesized. Service models can also be derived automatically from global behavioral specifications (contracts, choreographies). Such generated models are correct by construction.
+
+ ${}$ 
+\end{niceenumerate}

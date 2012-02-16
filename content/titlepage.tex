@@ -1,0 +1,189 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+    \begin{center}
+        \large
+
+        \hfill
+
+        \vfill
+
+        \begingroup
+   \spacedallcaps{\Large Correctness of services and~their~composition} \\ \bigskip
+        \endgroup
+
+%        \spacedlowsmallcaps{A Thesis by}\\
+        \spacedlowsmallcaps{Niels Lohmann}
+
+        \vfill
+
+        \vfill
+
+    \end{center}
+\end{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\small
+
+${}$\vfill
+
+\begin{center}
+  \centering
+  \includegraphics[height=2.5em]{title/cc}\\Copyright \copyright{} 2010 by Niels Lohmann. Some rights reserved.
+\end{center}
+\vspace{-0.5em}
+\noindent This thesis is licensed under the Creative Commons Attribution-Noncommercial-Share\break Alike 3.0 Unported License. To view a copy of this license, visit \href{http://creativecommons.org/licenses/by-nc-sa/3.0}{http:/\!/creativecommons.org/ licenses/by-nc-sa/3.0} or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105,~{\footnotesize USA}.
+
+\vspace{3em}
+
+%\noindent{\footnotesize CIP-DATA LIBRARY TECHNISCHE UNIVERSITEIT EINDHOVEN}\bigskip
+\noindent A library record is available from the Eindhoven University of Technology Library.\bigskip
+
+\noindent Lohmann, Niels\medskip
+
+\noindent Correctness of services and their composition / by Niels Lohmann
+
+\noindent -- Eindhoven: Technische Universiteit Eindhoven, 2010. -- Proefschrift. --\medskip
+
+\noindent ISBN 978-90-386-2318-4\\
+NUR 993
+
+\vspace{2em}
+
+\begin{center}
+  \centering
+  \includegraphics[height=3em]{title/siks}\\\acronym{SIKS} Dissertation Series No.\ 2010-37
+\end{center}
+\vspace{-0.5em}
+\noindent The research reported in this thesis has been carried out under the auspices of {\footnotesize SIKS}, the Dutch Research School for Information and Knowledge Systems.
+
+\vspace{3em}
+
+\begin{center}
+  \centering
+  $\empty$\hfill
+  \includegraphics[height=2em]{title/dfg}\hfill
+  \includegraphics[height=3em]{title/bmbf}\hfill$\empty$
+\end{center}
+\vspace{-0.5em}
+\noindent The research reported in this theses has been partially supported by the \acronym{DFG} within grant ``Operating Guidelines for Services'' (WO 1466/8-1) and by the \acronym{BMBF}, project ``Tools4BPEL'', project number 01ISE08.
+
+\vspace{3em}
+
+\noindent Printed by University Press Facilities, Eindhoven.\\
+\noindent Cover Design by Paul Verspaget.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\normalsize
+\cleardoublepage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\normalsize
+\cleardoublepage
+\thispagestyle{empty}
+
+\begin{center}
+${}$
+\vspace{3em}
+
+\spacedallcaps{\Large Correctness of services}\\\vspace{0.3em}
+\spacedallcaps{\Large and their composition}
+
+\vspace{3em}
+\large
+\spacedallcaps{Proefschrift}
+
+\vspace{3em}
+
+ter verkrijging van de graad van doctor aan de\\
+Technische Universiteit Eindhoven, op gezag van de\\
+rector magnificus, prof.dr.ir.\ C.J.\ van Duijn, voor een\\
+commissie aangewezen door het College voor\\
+Promoties in het openbaar te verdedigen op\\
+maandag 27 september 2010 om 14.00 uur
+
+\vspace{3em}
+
+door
+
+\vspace{3em}
+
+Niels Lohmann
+
+\vspace{3em}
+
+geboren te Bonn, Duitsland
+\end{center}
+\pagebreak
+\thispagestyle{empty}
+
+\noindent Dit proefschrift is goedgekeurd door de promotoren:\vspace{3em}
+
+
+\noindent prof.dr.ir.\ W.M.P.\ van der Aalst\\
+en\\
+Prof.Dr.\ K.\ Wolf
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\normalsize
+\cleardoublepage
+\thispagestyle{empty}
+
+\begin{center}
+${}$
+\vspace{3em}
+
+\spacedallcaps{\Large Correctness of services}\\\vspace{0.3em}
+\spacedallcaps{\Large and their composition}
+
+\vspace{3em}
+\large
+\spacedallcaps{Dissertation}
+
+\vspace{3em}
+
+zur\\
+Erlangung des akademischen Grades\\
+Doktor-Ingenieur (Dr.-Ing.)\\
+der Faktult\"at f\"ur Informatik und Elektrotechnik\\
+der Universit\"at Rostock
+
+\vspace{3em}
+
+\noindent vorgelegt von\\\bigskip
+
+\noindent Niels Lohmann, geboren am 10.\ Mai 1981 in Bonn\\
+\noindent aus Rostock
+
+\vspace{1em}
+
+\noindent Rostock, 4.\ Mai 2010
+\end{center}
+\pagebreak
+\thispagestyle{empty}
+
+
+\noindent Gutachter:
+\begin{enumerate}
+\item Prof.\ Dr.\ Karsten Wolf\\Universit\"at Rostock
+
+\item prof.dr.ir.\ Wil M.\,P.\, van der Aalst\\Technische Universiteit Eindhoven
+
+\item Prof.\ Dr.\ Mathias Weske\\Hasso-Plattner-Institut an der Universit\"at Potsdam
+\end{enumerate}
+
+\vspace{3em}
+\noindent Datum der Verteidigung: Montag, 27.\ September 2010%, 14:00 Uhr im Collegezaal 5 des Auditoriums der Technischen Universit\"at Eindhoven
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\normalsize
+\cleardoublepage

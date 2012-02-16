@@ -1,0 +1,24 @@
+\documentclass[a4paper]{article}
+
+\begin{document}
+
+\pagestyle{empty}
+\section*{Research Description}
+
+Service-oriented computing is an emerging paradigm of inter-organizational cooperation. It aims at reducing the complexity of distributed systems by decomposing them into several self-contained components, called \emph{services}. Service-orientation allows for constructing large distributed systems by composing several heterogenous and decentralized services. This modularization may reduce both complexity and cost. At the same time, new challenges arise with the distributed execution of services in dynamic compositions.
+
+In particular, the \emph{correctness} of a service composition depends on the local correctness of each participating service \underline{and} the correct interaction between them. Incorrect systems, which expose bugs and undefined or unpredictable behavior, do not just affect technical systems anymore, but may threaten life in safety-critical systems or compromise the reputation or economical situation of individuals, companies, or governments.
+
+This thesis investigates the correctness of services and service compositions. The contribution of this thesis is a formalization of services, service compositions, and several correctness criteria related to service behavior on the one hand, and algorithms to verify these criteria on the other hand. The results have been prototypically implemented in software tools as proof of concept.
+
+From the point of view on a service composition, we investigate the following aspects of service compositions:
+
+\begin{enumerate}
+\item The correctness of a service composition depends on the correctness of the composed services. To this end, we study correctness criteria that can be expressed and checked with respect to a single service. We validate services using behavioral constraints and verify their satisfaction in any possible service composition. In case a service is incorrect, we elaborate diagnosis information to locate and fix the error.
+
+\item In case every participating service of a service composition is correct, their interaction can still introduce problems. We formalize industrial service compositions to formally verify service models. We further support the design of service composition and present algorithms to complete partially specified service compositions and to fix incorrect service compositions.
+
+\item A service composition can also be derived from a specification, called choreography. A choreography globally specifies the observable behavior of the composition. We present an algorithm to deduce local service description from the choreography which by design comply to the specification.
+\end{enumerate}
+
+\end{document}
